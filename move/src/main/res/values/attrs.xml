@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--拖拽的进度条-->
+    <declare-styleable name="MoveProgress">
+
+        <!--View视图的高度-->
+        <attr name="ms_height" format="dimension" />
+        <!--进度条的高度-->
+        <attr name="ms_progress_height" format="dimension" />
+        <!--进度条的Icon-->
+        <attr name="ms_progress_thumb" format="reference" />
+        <!--进度条距离icon的上下距离-->
+        <attr name="ms_progress_margin_top_bottom" format="dimension" />
+        <!--进度条距离左右的边距-->
+        <attr name="ms_progress_margin_left_right" format="dimension" />
+        <!--进度条的圆角-->
+        <attr name="ms_progress_radius" format="dimension" />
+        <!--进度条的背景颜色-->
+        <attr name="ms_progress_background" format="color" />
+        <!--间隔线颜色-->
+        <attr name="ms_interval_color" format="color" />
+        <!--间隔线选中颜色-->
+        <attr name="ms_interval_select_color" format="color" />
+        <!--间隔线距离父左右-->
+        <attr name="ms_interval_parent_margin_left_right" format="dimension" />
+        <!--间隔线数量-->
+        <attr name="ms_interval_size" format="integer" />
+        <!--间隔线宽度-->
+        <attr name="ms_interval_width" format="dimension" />
+        <!--间隔线上下边距-->
+        <attr name="ms_interval_margin_top_bottom" format="dimension" />
+        <!--定义的移动颜色-->
+        <attr name="ms_progress_move_color" format="reference" />
+        <!--最大进度-->
+        <attr name="ms_progress_max" format="integer" />
+        <!--默认进度-->
+        <attr name="ms_progress_default" format="integer" />
+        <!--是否显示刻度尺-->
+        <attr name="ms_is_graduation" format="boolean" />
+        <!--刻度尺文字大小-->
+        <attr name="ms_graduation_text_size" format="dimension" />
+        <!--刻度尺文字颜色-->
+        <attr name="ms_graduation_text_color" format="color" />
+        <!--刻度尺文字选中颜色-->
+        <attr name="ms_graduation_select_text_color" format="color" />
+        <!--刻度值段-->
+        <attr name="ms_graduation_section" format="integer" />
+        <!--刻度值段从零开始-->
+        <attr name="ms_graduation_section_zero" format="boolean" />
+        <!--刻度值段中间是否隐藏-->
+        <attr name="ms_graduation_hide_center" format="boolean" />
+        <!--刻度值距离上边的距离-->
+        <attr name="ms_graduation_margin_top" format="dimension" />
+        <!--icon的宽-->
+        <attr name="ms_progress_thumb_width" format="dimension" />
+        <!--icon的高-->
+        <attr name="ms_progress_thumb_height" format="dimension" />
+        <!--icon距离上边的高度-->
+        <attr name="ms_progress_thumb_margin_top" format="dimension" />
+        <!--icon的内边距-->
+        <attr name="ms_progress_thumb_spacing" format="dimension" />
+        <!--是否拦截-->
+        <attr name="ms_progress_disallow_intercept" format="boolean" />
+        <!--是否禁止拖拽-->
+        <attr name="ms_progress_is_intercept" format="boolean" />
+
+    </declare-styleable>
+
+</resources>
