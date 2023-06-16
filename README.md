@@ -79,7 +79,7 @@ dependencies {
 
 ## 文章介绍
 
-[Android实现一个可拖拽带有坐标尺的进度条](https://juejin.cn/spost/7241114001323638839)
+[Android实现一个可拖拽带有坐标尺的进度条](https://juejin.cn/spost/7245118640411983909)
 
 ## 欢迎关注作者
 
