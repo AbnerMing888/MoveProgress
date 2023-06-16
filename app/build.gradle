@@ -3,5 +3,6 @@ apply plugin: 'kotlin-kapt'
 project.ext.setAppDefaultConfig project
 
 dependencies {
-    implementation project(path: ':move')
+//    implementation project(path: ':move')
+    implementation 'com.vip:moveprogress:1.0.0'
 }
